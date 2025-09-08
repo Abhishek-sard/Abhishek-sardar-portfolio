@@ -1,33 +1,34 @@
 import React from "react";
+import gym from '../assets/gym.png';
+import sajiloTicket from '../assets/sajilo.png';
+import ecommerce from '../assets/ecommerce.png';
 
 const Projects = () => {
-  // Example project data
   const projectList = [
     {
       id: 1,
       title: "E-commerce App",
       description: "A full-stack e-commerce app built with MERN stack.",
-      image: "",
+      image: ecommerce,  // Correct reference
       liveLink: "https://yourliveproject.com",
       githubLink: "https://github.com/yourusername/project1",
     },
     {
       id: 2,
-      title: "Portfolio Website",
+      title: "Gym Website",
       description: "My personal portfolio website built with React and TailwindCSS.",
-      image: "/project2.png",
+      image: gym,  // Correct reference
       liveLink: "https://yourportfolio.com",
-      githubLink: "https://github.com/yourusername/portfolio",
+      githubLink: "https://github.com/Abhishek-sard/E-Commerce-App",
     },
     {
       id: 3,
       title: "Sajilo Ticket Booking",
       description: "Ticket booking system using HTML, CSS, JS, PHP, MySQL.",
-      image: "/project3.png",
+      image: sajiloTicket,  // Correct reference
       liveLink: "https://sajiloticket.com",
-      githubLink: "https://github.com/yourusername/sajiloticket",
+      githubLink: "https://github.com/Abhishek-sard/Sajilo-Ticket",
     },
-    // Add more projects as needed
   ];
 
   return (
@@ -41,7 +42,6 @@ const Projects = () => {
         </p>
       </div>
 
-      {/* Projects Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projectList.map((project) => (
           <div
