@@ -9,7 +9,7 @@ const Projects = () => {
       id: 1,
       title: "E-commerce App",
       description: "A full-stack e-commerce app built with MERN stack.",
-      image: ecommerce,  // Correct reference
+      image: ecommerce,  
       liveLink: "https://yourliveproject.com",
       githubLink: "https://github.com/yourusername/project1",
     },
@@ -17,7 +17,7 @@ const Projects = () => {
       id: 2,
       title: "Gym Website",
       description: "My personal portfolio website built with React and TailwindCSS.",
-      image: gym,  // Correct reference
+      image: gym,  
       liveLink: "https://yourportfolio.com",
       githubLink: "https://github.com/Abhishek-sard/E-Commerce-App",
     },
@@ -25,7 +25,7 @@ const Projects = () => {
       id: 3,
       title: "Sajilo Ticket Booking",
       description: "Ticket booking system using HTML, CSS, JS, PHP, MySQL.",
-      image: sajiloTicket,  // Correct reference
+      image: sajiloTicket,  
       liveLink: "https://sajiloticket.com",
       githubLink: "https://github.com/Abhishek-sard/Sajilo-Ticket",
     },

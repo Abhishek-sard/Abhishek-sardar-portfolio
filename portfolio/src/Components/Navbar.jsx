@@ -22,9 +22,6 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-gray-700 font-medium">
           <li><a href="#home" className="hover:text-indigo-600">Home</a></li>
-          <li><a href="#about" className="hover:text-indigo-600">About</a></li>
-          <li><a href="#projects" className="hover:text-indigo-600">Projects</a></li>
-          <li><a href="#contact" className="hover:text-indigo-600">Contact</a></li>
         </ul>
 
         {/* Mobile Menu Button */}
@@ -40,9 +37,6 @@ const Navbar = () => {
       {open && (
         <ul className="md:hidden flex flex-col bg-white shadow-lg px-6 py-4 space-y-4 text-gray-700 font-medium">
           <li><a href="#home" onClick={() => setOpen(false)}>Home</a></li>
-          <li><a href="#about" onClick={() => setOpen(false)}>About</a></li>
-          <li><a href="#projects" onClick={() => setOpen(false)}>Projects</a></li>
-          <li><a href="#contact" onClick={() => setOpen(false)}>Contact</a></li>
         </ul>
       )}
     </nav>
