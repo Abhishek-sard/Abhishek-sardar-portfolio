@@ -49,7 +49,7 @@ const About = () => {
             <div className="bg-indigo-50 p-6 rounded-xl shadow hover:shadow-lg transition">
               <h3 className="text-xl font-semibold text-indigo-600">Education</h3>
               <p className="mt-2 text-gray-700">
-                Bachelor’s degree in Computer Application (BCA) with focus on web technologies and software development.
+                Student of Bachelor in Computer Application(BCA), with Web Development.
               </p>
             </div>
             <div className="bg-indigo-50 p-6 rounded-xl shadow hover:shadow-lg transition">
