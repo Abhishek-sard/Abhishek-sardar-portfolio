@@ -7,9 +7,17 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <div className="max-w-8xl mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-indigo-600">Abhishek-Sardar</h1>
+        <h1
+          onClick={() => {
+            setOpen(false); 
+            window.scrollTo({ top: 0, behavior: "smooth" }); 
+          }}
+          className="text-2xl font-bold text-indigo-600 cursor-pointer"
+        >
+          Abhishek-Sardar
+        </h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-gray-700 font-medium">
@@ -20,11 +28,11 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile Menu Button */}
-        <button 
+        <button
           className="md:hidden text-gray-700"
           onClick={() => setOpen(!open)}
         >
-          {open ? <X size={28}/> : <Menu size={28}/>}
+          {open ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 

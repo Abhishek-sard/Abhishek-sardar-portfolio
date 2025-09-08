@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar";
 import React from "react";
+import Home from "./Components/Home";
 
 
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <section id="home" className="h-screen bg-gray-100 pt-20 flex items-center justify-center">
+      <section id="Home" className="h-screen bg-gray-100 pt-20 flex items-center justify-center">
         <h2 className="text-4xl font-bold">Welcome to My Portfolio</h2>
       </section>
       <section id="about" className="h-screen bg-gray-200 pt-20 flex items-center justify-center">
